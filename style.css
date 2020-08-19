@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "nexa";
+  src: url("fonts/Nexa\ Bold.otf");
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "nexa";
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+td {
+  width: 100px;
+  height: 100px;
+}
+tr:nth-of-type(1) td:nth-of-type(1) {
+  border-bottom: 3px solid grey;
+  border-right: 3px solid grey;
+}
+tr:nth-of-type(1) td:nth-of-type(3) {
+  border-bottom: 3px solid grey;
+  border-left: 3px solid grey;
+}
+
+tr:nth-of-type(2) td:nth-of-type(2) {
+  border: 3px solid grey;
+}
+tr:nth-of-type(3) td:nth-of-type(1) {
+  border-top: 3px solid grey;
+  border-right: 3px solid grey;
+}
+tr:nth-of-type(3) td:nth-of-type(3) {
+  border-top: 3px solid grey;
+  border-left: 3px solid grey;
+}
